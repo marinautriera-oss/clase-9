@@ -64,6 +64,58 @@
 </body>
 </html>
 
+style.css
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
+:root{
+    --color-primario:  # FFFFFF
+   --background-color:rgba(0, 0, 0, 0);
+   --
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Condensed, Microsoft JhengHei, sans-serif;
+color:var(--background-color:rgba(0, 0, 0, 0);)
+}
+
+ul,ol{
+    list-style: none;
+}
+.content-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+width: 795;
+}
+
+.header{
+background-color: var( --color-primario);
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 94px;
+}
+.header .header__nav-list{
+display: flex;
+}
+.header__logo-container{
+    with: 152px;
+    height: 29px;
+}
+.header__nav-item{
+
+}
+.header__actions{
+display: flex;
+flex-direction: row;
+padding: 5px;
+}
+.header__nav-item:hover{
+    letter:var( red);
+}
 
     
